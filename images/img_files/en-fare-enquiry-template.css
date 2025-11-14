@@ -1,0 +1,4 @@
+.menu > ul > li {
+ display: none; }
+.menu > ul > li:nth-child(3) {
+ display: block; }

@@ -1,0 +1,201 @@
+@media only screen and (max-width:767px) {
+    .navbar .logo.pull-left {
+        float: none !important;
+    }
+    .logo a {
+        height: auto;
+        overflow: hidden;
+    }
+    .pull-right.primary {
+        float: none !important;
+    }
+    .bn-controls button {
+        padding: 0px 20px 0px 20px;
+    }
+    .primary .navbar-toggle {
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: #10448d;
+        display: inline-block;
+        right: -20px;
+        top: -68px;
+        color: #fff;
+        font-size: 24px;
+        padding: 0px;
+        position: absolute;
+        border: 0;
+    }
+    .navbar.navbar-default .primary .navbar-toggle:hover {
+        background-color: #10448d;
+        color: #fff;
+    }
+    .navbar {
+        min-height: inherit;
+    }
+    header#inner-navigation {
+        position: relative;
+    }
+    .banner {
+        padding: 0px;
+    }
+    #inner-navigation .nav.navbar-nav li ul {
+        position: relative;
+        width: 100%;
+    }
+    .selected-course .intitute-thumb li:nth-child(1) {
+        width: 100% !important;
+    }
+    .selected-course .intitute-thumb li a {
+        min-height: 140px;
+    }
+    .selected-course .intitute-thumb li {
+        width: 50% !important;
+    }
+    #inner-navigation .nav.navbar-nav {
+        float: none !important;
+        transition: all ease-in-out 0.5s;
+        display: block;
+    }
+    .primary .dropdown-menu {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        border: 1px solid #ccc;
+    }
+    #inner-navigation .nav.navbar-nav li ul {
+        top: 0px !important;
+    }
+    .primary li {
+        margin: 0px !important;
+    }
+    .primary .navbar-nav {
+        margin-top: 0px !important;
+    }
+    .navbar.navbar-default .navbar-collapse ul.nav.navbar-nav li a,
+    #inner-navigation .nav.navbar-nav>li>a {
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+    #inner-navigation .nav.navbar-nav li ul li ul {
+        left: 0px !important;
+        position: relative !important;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: fit-content;
+    }
+    .bn-label {
+        width: 25%;
+        font-size: 0.9em;
+    }
+    .bn-news ul li a {
+        font-size: 0.9em;
+    }
+    .top-bar-left.pull-left,
+    .top-bar-right.pull-right {
+        float: none !important;
+    }
+    .top-bar-left.pull-left:after {
+        content: "\f078";
+        font-family: FontAwesome;
+        color: #fff;
+        position: absolute;
+        right: 15px;
+        top: 5px;
+    }
+    .top-bar-right.pull-right {
+        transition-duration: .3s;
+        height: 0px;
+        overflow: hidden;
+    }
+    .topbar-inner:hover .top-bar-right.pull-right {
+        display: block;
+        height: auto;
+    }
+    .top-bar-left ul li,
+    .top-bar-right ul li {
+        display: block;
+    }
+    .topbar-inner ul li {
+        padding: 6px 0px 6px 5px;
+    }
+    .topbar-inner ul li {
+        border-left: 0px solid #cccccc40;
+    }
+    .statistics {
+        padding: 0px 0px 0px 10px;
+        width: 100%;
+        border-radius: 0px;
+        flex-wrap: wrap;
+    }
+    .statistics li {
+        padding: 20px 10px;
+        width: 50%;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+    }
+    .statistics li .counter-box span {
+        font-size: 23px !important;
+    }
+    .statistics li .counter-box {
+        text-align: center;
+    }
+    .primary li.dropdown>a:after {
+        content: "\f078";
+        font-family: FontAwesome;
+        float: right;
+    }
+    #newsletter {
+        padding: 0 !important;
+    }
+    #basicExampleModal .modal-dialog {
+        width: 95% !important;
+        margin: 61px auto;
+    }
+    .newsletter-inner ul li {
+        width: 50%;
+        padding: 10px;
+        margin: 0px;
+    }
+    .in-banner {
+        min-height: 140px;
+        padding: 34px 0px;
+    }
+    .inheading {
+        position: relative;
+        top: 0px;
+    }
+    .inheading h2 {
+        margin-top: 0px;
+        font-size: 1.em;
+    }
+    .contentarea {
+        padding: 20px 0;
+        padding-bottom: 6em;
+    }
+    .leftside {
+        padding-bottom: 22px;
+    }
+    .gallery-thumb.col-md-6 {
+        width: 100%;
+    }
+    .contact-box {
+        margin-left: 0%;
+    }
+    .contact-box .address {
+        position: relative;
+        left: 0%;
+        max-width: 100%;
+        top: 0px;
+    }
+    #newsletter {
+        /* margin: 0px -15px 15px -15px; */
+    }
+    .incontent {
+        /* padding-bottom: 25px; */
+        /* margin-bottom: 15px; */
+        padding: 15px;
+    }
+}
+
+.hidden-xs {
+    display: block;
+}
